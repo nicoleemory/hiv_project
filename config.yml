@@ -1,0 +1,23 @@
+#default:
+#  production: TRUE
+#  cutpoint: 1
+  
+#test:
+#  production: FALSE
+#  cutpoint: 0
+
+default:
+  production: FALSE
+  cutpoint_europeamerica: 1
+  cutpoint_else: 1
+
+test: 
+  production: FALSE
+  cutpoint_europeamerica: 1
+  cutpoint_else: 1
+
+region_specific:
+  production: TRUE
+  cutpoint_europeamerica: 1
+  cutpoint_else: 0.5
+  
